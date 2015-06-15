@@ -2,6 +2,7 @@ Package.describe({
   name: 'jvercout:socks5',
   version: '0.0.1',
   summary: 'socks5',
+  git: 'https://github.com/JVercout/meteor-socks5-client',
   documentation: 'README.md'
 });
 
