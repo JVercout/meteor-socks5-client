@@ -15,3 +15,9 @@ Package.onUse(function(api) {
 Npm.depends({
   "socks5-client": "1.1.0",
 });
+
+Package.onTest(function(api) {
+  api.use('sanjo:jasmine@0.14.0');
+  api.use('jvercout:socks5');
+  api.addFiles('tests/server/socks5.js', 'server');
+});
