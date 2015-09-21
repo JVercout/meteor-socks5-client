@@ -11,7 +11,8 @@ meteor add jvercout:socks5
 
 ## Example
 Furnishing Agent Socks5 Class for npmRequestOptions as describe in the official doc: http://docs.meteor.com/#/full/http_call
-Largely inspired from: https://github.com/mattcg/socks5-http-client
+
+inspired from: https://github.com/mattcg/socks5-http-client
 
 ```
 HTTP.call(
